@@ -16,6 +16,4 @@ class LaravelConsoleCommand extends Command
 
         return self::SUCCESS;
     }
-
-
 }

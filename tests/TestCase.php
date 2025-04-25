@@ -2,9 +2,9 @@
 
 namespace HollisLabs\LaravelConsole\Tests;
 
+use HollisLabs\LaravelConsole\LaravelConsoleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use HollisLabs\LaravelConsole\LaravelConsoleServiceProvider;
 
 class TestCase extends Orchestra
 {
