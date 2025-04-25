@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace HollisLabs\LaravelConsole\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelConsoleCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-console';
 
     public $description = 'My command';
 
@@ -16,4 +16,6 @@ class SkeletonCommand extends Command
 
         return self::SUCCESS;
     }
+
+
 }
